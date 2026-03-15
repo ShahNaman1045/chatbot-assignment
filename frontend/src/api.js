@@ -1,6 +1,6 @@
 import axios from "axios"
 
-const API_URL = "http://localhost:8000/chat"
+const API_URL = "https://chatbot-assignment-oa1s.onrender.com/chat"
 
 export const sendMessage = async (message, email) => {
 
